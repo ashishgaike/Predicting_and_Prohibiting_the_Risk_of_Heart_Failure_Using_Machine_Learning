@@ -2,7 +2,7 @@
 
 PROJECT IDEA :
 
-The occurrence of heart-related issues has increased by more than 50 percent from 1990 to 2016. The aim of this project is to develop a machine learning model that can predict the risk factors and outcomes associated with heart failure, and also give Nutritional, Yoga tips  and doctor help on the same platform while sitting at home.
+The occurrence of heart-related issues has increased by more than 50 percent from 1990 to 2016. The aim of this project is to develop a machine learning model that can predict the risk factors and outcomes associated with heart failure, and also give Nutritional, Yoga tips, and doctor help on the same platform while sitting at home.
 
 
 Software Tools :
@@ -31,9 +31,8 @@ APPLICATIONS :
 RESULTS :
 
 ![Screenshot (297)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/167588b5-7149-4e7b-8df1-98b752c68786)
-
-
 figure 1: Home Page
+
 ![Screenshot (298)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/46f9dbab-722d-4962-8bf5-20c7718bcdb8)
 figure 2: Physical Courses
 
@@ -69,25 +68,19 @@ figure 11: Check Out Page
 Figure 12: Invoice
 
 ![Screenshot (329)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/1c5892d5-4e8b-4f7f-bffb-d27a43949fac)
-
 figure 13: Admin Dashboard
 
 ![Screenshot (330)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/8c000871-c227-4873-a336-70824c63b5f1)
-
 figure 14: View Appointments
 
 ![Screenshot (331)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/af6f6889-e9e2-450e-b890-8e153777090e)
-
 figure 15: View Doctor
 
 ![Screenshot (332)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/df6d3ebb-c664-4713-b8d8-17b747178e2d)
-
 figure 16: Update Doctor
 
 ![Screenshot (333)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/3dcf1da2-efb4-4f44-b05a-d80fdfc7cb15)
-
 figure 17: Add Doctor
 
 ![Screenshot (334)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/d45dc13c-5524-449c-8fc4-2e7661c03631)
-
 figure 18: Invoice Details
