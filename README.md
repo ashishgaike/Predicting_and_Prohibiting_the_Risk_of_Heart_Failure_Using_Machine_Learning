@@ -30,7 +30,8 @@ APPLICATIONS :
 
 RESULTS :
 
-![Uploading Screenshot (297).png…]()
+![Screenshot (297)](https://github.com/ashishgaike/Predicting_and_Prohibiting_the_Risk_of_Heart_Failure_Using_Machine_Learning/assets/71187936/167588b5-7149-4e7b-8df1-98b752c68786)
+
 
 figure 10.1 : Home Page
 
