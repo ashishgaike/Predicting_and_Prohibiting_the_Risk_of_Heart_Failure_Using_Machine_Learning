@@ -19,9 +19,13 @@ Software Tools :
 APPLICATIONS :
 
 > Prediction Of Heart failure Risk Earlier.
+
 > Cardiologists Help is available on the website in a minimum amount.
+
 > Nutritionists are also available on the website for diet and lifestyle change.
+
 > Provided Yoga courses.
+
 > free access to blogs.
 
 RESULTS :
