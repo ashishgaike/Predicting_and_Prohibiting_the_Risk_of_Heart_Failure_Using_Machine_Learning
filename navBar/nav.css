@@ -1,0 +1,50 @@
+li { list-style: none; }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    background-color: white;
+    z-index: 4;
+    transition: 0.25s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    scroll-behavior: smooth;
+}
+
+.logo {
+    color: hsl(32, 24%, 14%);;
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 700;
+  }
+  
+  .logo .span {
+    display: inline-block;
+    color: hsl(38, 100%, 50%);
+  }
+
+  .navbar-item{
+    float: left;
+    font-weight: bold;
+  }
+
+  .navbar-link{
+    display: block;
+    padding: 8px;
+  }
+
+  .navbar-link:hover{
+    color: hsl(38, 100%, 50%);
+  }
+    

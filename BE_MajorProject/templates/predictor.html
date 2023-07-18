@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html >
+
+<head>
+  <meta charset="UTF-8">
+  <title>heart failure Predictor</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<!--<link rel="stylesheet" href="{{ url_for('static', filename='css/Predictor.css') }}">-->
+	
+<link rel="stylesheet" href="../templates/predictor.css">
+</head>
+
+<body>
+ 	<div class="input-body">
+	
+	<h1 style="color:rgb(36, 86, 202);">Predict the risk of heart failure</h1>
+		<div class="heart-rate">
+  <svg version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="150px" height="73px" viewBox="0 0 150 73" enable-background="new 0 0 150 73" xml:space="preserve">
+    <polyline fill="none" stroke="#009B9E" stroke-width="3" stroke-miterlimit="10" points="0,45.486 38.514,45.486 44.595,33.324 50.676,45.486 57.771,45.486 62.838,55.622 71.959,9 80.067,63.729 84.122,45.486 97.297,45.486 103.379,40.419 110.473,45.486 150,45.486"/>
+  </svg>
+  <div class="fade-in"></div>
+  <div class="fade-out"></div>
+</div>
+     <h1> Enter the following values to predict the risk of heart failure</h1>
+
+     <h2><b style="color:#e600e6">{{prediction_text }}</h2>
+     <form action="{{ url_for('predict')}}"method="post">
+		
+		<h2>Age<h2>
+    		<input type="text" name="age" placeholder="Age" required="required" />
+		<h2>anaemia (0 for NO , 1 for Yes)</h2>
+        	<input type="text" name="anaemia" placeholder="Anaemia" required="required" />
+		<h2>creatinine phosphokinase (CPK): level of the CPK enzyme in the blood (mcg/L)</h2>
+		<input type="text" name="fuelcreatinine_phosphokinase" placeholder="creatinine phosphokinase (CPK)" required="required" />
+		<h2>diabetes (0 for NO , 1 for Yes)</h2>
+		<input type="text" name="diabetes" placeholder="diabetes" required="required" />
+		<h2> ejection fraction: percentage of blood leaving the heart at each contraction (percentage)</h2>
+		<input type="text" name="ejection_fraction" placeholder="ejection fraction" required="required" />
+		<h2>high blood pressure (0 for NO , 1 for Yes)</h2>
+		<input type="text" name="high_blood_pressure" placeholder="high blood pressure" required="required" />
+		<h2>platelets: platelets in the blood (kiloplatelets/mL)</h2>
+		<input type="text" name="platelets" placeholder="platelets" required="required" />
+		<h2>serum creatinine: level of serum creatinine in the blood (mg/dL) </h2>
+		<input type="text" name="serum_creatinine" placeholder="serum creatinine" required="required" />
+		<h2>serum sodium: level of serum sodium in the blood (mEq/L)</h2>
+		<input type="text" name="serum_sodium" placeholder="serum sodium" required="required" />
+		<h2>Sex (1 for male ,0 for female)</h2>
+		<input type="text" name="sex" placeholder="sex" required="required" />
+		<h2>Smoking (0 for NO , 1 for Yes)</h2>
+		<input type="text" name="smoking" placeholder="smoking" required="required" />
+        <button type="submit" class="btn">Predict</button>
+    </form>
+	
+   <br>
+   <br>
+   
+ </div>
+
+
+</body>
+</html>
