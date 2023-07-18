@@ -7,9 +7,13 @@ The occurrence of heart-related issues has increased by more than 50 percent fro
 
 Software Tools :
  > Operating System		   : Windows 10/11 or MacOs Browser.
+
  > IDE			             : VS code, Pycharm, Xampp server, PHP, Flask, Jupyter Notebook, SQL server.
- > Programming Language  : Python, HTML, CSS, JavaScript. 
+
+ > Programming Language  : Python, HTML, CSS, JavaScript.
+
  > Other Resources / Web : Kaggle, IEEE , Microsoft Office.
+
  > Libraries             : Machine Learning, Random Forest, Logistic Regression, TensorFlow, Scikit-learn.
 
 APPLICATIONS :
